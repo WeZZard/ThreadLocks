@@ -1,0 +1,64 @@
+#!/bin/sh
+# This shell script generates all the boilerplates
+
+# Known bugs:
+# 1) Timestamp of files with the name contains +, - and " "(space) would 
+#   conflict each other. This is caused by Bash 3.2 doesn't support associative
+#   array, which enforces it to use dynamic variable name to store timestamps 
+#   for difference file names, and variable name in Bash script cannot contain 
+#   characters like "+" and "-", so "+" and "-" are all converted into "_".
+
+SOURCE_DIR=${PROJECT_DIR}
+GYB=${PROJECT_DIR}/gyb/gyb
+TIMESTAMPS_LOC=${DERIVED_FILES_DIR}/gyb_timestamps
+
+TIMESTAMP_KEYS=()
+
+if [ -f $TIMESTAMPS_LOC ]; then
+# Read timestamps
+    while read -r LINE; do
+        IFS=':' read -ra LINE_COMPONENTS <<< "$LINE"
+        KEY="${LINE_COMPONENTS[0]}"
+        TIMESTAMP="${LINE_COMPONENTS[1]}"
+        declare TIMESTAMPS__${KEY}="$TIMESTAMP"
+    done < "$TIMESTAMPS_LOC"
+fi
+
+IFS=$'\n'; for SOURCE_FILE in $(find /${SOURCE_DIR} -name '*.gyb'); do
+	if [[ "${SOURCE_FILE}" =~ ^[^\0]+.swift.gyb$ ]]; then
+        SOURCE_TIMESTAMP=`stat -f %m $SOURCE_FILE`
+        KEY=${SOURCE_FILE//[.\/+\-\\ ]/_}
+        TIMESTAMP_KEYS+=($KEY)
+        TIMESTAMP_NAME=TIMESTAMPS__${KEY}
+        DESTINATION_TIMESTAMP=${!TIMESTAMP_NAME}
+        if [ -z "$DESTINATION_TIMESTAMP" ]; then
+            declare DESTINATION_TIMESTAMP=0
+        fi
+        if [ $SOURCE_TIMESTAMP -ge $DESTINATION_TIMESTAMP ]; then
+            DESTINATION_FILE=$(expr ${SOURCE_FILE} \
+                | egrep -o "[^\0]+.swift")
+            echo "Generate your biolerplate from ${SOURCE_FILE} to \
+${DESTINATION_FILE}"
+            $GYB ${SOURCE_FILE} -o ${DESTINATION_FILE} --line-directive ""
+            NEW_TIMESTAMP=`stat -f %m ${DESTINATION_FILE}`
+            declare TIMESTAMPS__${KEY}="$NEW_TIMESTAMP"
+            EXIT_CODE=$?
+            if [[ $EXIT_CODE != 0 ]]; then
+                exit $EXIT_CODE
+            fi
+        else
+            echo "Generated biolerplate found: $DESTINATION. \
+Re-generation was skipped due to the template's last modified \
+timestamp is ealier than the generated biolerplate's."
+        fi
+	fi
+done
+
+> "$TIMESTAMPS_LOC"
+
+for KEY in "${TIMESTAMP_KEYS[@]}"; do
+    TIMESTAMP_NAME=TIMESTAMPS__${KEY}
+    echo "$KEY:${!TIMESTAMP_NAME}" >> "$TIMESTAMPS_LOC"
+done
+
+exit 0
