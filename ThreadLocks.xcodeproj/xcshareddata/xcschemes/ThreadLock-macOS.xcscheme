@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9C953F6C21799E96008089A8"
-               BuildableName = "ThreadLock.framework"
+               BuildableName = "ThreadLocks.framework"
                BlueprintName = "ThreadLocks-macOS"
                ReferencedContainer = "container:ThreadLocks.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9C953F6C21799E96008089A8"
-            BuildableName = "ThreadLock.framework"
+            BuildableName = "ThreadLocks.framework"
             BlueprintName = "ThreadLocks-macOS"
             ReferencedContainer = "container:ThreadLocks.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9C953F6C21799E96008089A8"
-            BuildableName = "ThreadLock.framework"
+            BuildableName = "ThreadLocks.framework"
             BlueprintName = "ThreadLocks-macOS"
             ReferencedContainer = "container:ThreadLocks.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9C953F6C21799E96008089A8"
-            BuildableName = "ThreadLock.framework"
+            BuildableName = "ThreadLocks.framework"
             BlueprintName = "ThreadLocks-macOS"
             ReferencedContainer = "container:ThreadLocks.xcodeproj">
          </BuildableReference>
