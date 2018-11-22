@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C953F7721799E96008089A8 /* ThreadLock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953F6D21799E96008089A8 /* ThreadLock.framework */; };
-		9C953F9321799EA2008089A8 /* ThreadLock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953F8A21799EA2008089A8 /* ThreadLock.framework */; };
-		9C953FBC21799F57008089A8 /* ThreadLock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953FB321799F57008089A8 /* ThreadLock.framework */; };
+		9C953F7721799E96008089A8 /* ThreadLocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953F6D21799E96008089A8 /* ThreadLocks.framework */; };
+		9C953F9321799EA2008089A8 /* ThreadLocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953F8A21799EA2008089A8 /* ThreadLocks.framework */; };
+		9C953FBC21799F57008089A8 /* ThreadLocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C953FB321799F57008089A8 /* ThreadLocks.framework */; };
 		9C9540932179B2E5008089A8 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C95408F2179B2E4008089A8 /* Threading.swift */; };
 		9C9540942179B2E5008089A8 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C95408F2179B2E4008089A8 /* Threading.swift */; };
 		9C9540952179B2E5008089A8 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C95408F2179B2E4008089A8 /* Threading.swift */; };
@@ -49,13 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C953F6D21799E96008089A8 /* ThreadLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreadLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953F7621799E96008089A8 /* ThreadLock-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreadLock-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953F8A21799EA2008089A8 /* ThreadLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreadLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953F9221799EA2008089A8 /* ThreadLock-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreadLock-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953FA621799F4F008089A8 /* ThreadLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreadLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953FB321799F57008089A8 /* ThreadLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreadLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C953FBB21799F57008089A8 /* ThreadLock-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreadLock-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953F6D21799E96008089A8 /* ThreadLocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreadLocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953F7621799E96008089A8 /* ThreadLocks-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreadLocks-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953F8A21799EA2008089A8 /* ThreadLocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreadLocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953F9221799EA2008089A8 /* ThreadLocks-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreadLocks-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953FA621799F4F008089A8 /* ThreadLocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreadLocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953FB321799F57008089A8 /* ThreadLocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreadLocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C953FBB21799F57008089A8 /* ThreadLocks-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreadLocks-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C95403A2179A25F008089A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C95403D2179A25F008089A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C95408F2179B2E4008089A8 /* Threading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C953F7721799E96008089A8 /* ThreadLock.framework in Frameworks */,
+				9C953F7721799E96008089A8 /* ThreadLocks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C953F9321799EA2008089A8 /* ThreadLock.framework in Frameworks */,
+				9C953F9321799EA2008089A8 /* ThreadLocks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C953FBC21799F57008089A8 /* ThreadLock.framework in Frameworks */,
+				9C953FBC21799F57008089A8 /* ThreadLocks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 		9C953EFF21799C7C008089A8 = {
 			isa = PBXGroup;
 			children = (
-				9C9540382179A25F008089A8 /* ThreadLock */,
-				9C95403B2179A25F008089A8 /* ThreadLockTests */,
+				9C9540382179A25F008089A8 /* ThreadLocks */,
+				9C95403B2179A25F008089A8 /* ThreadLocksTests */,
 				9C953F6E21799E96008089A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,18 +132,18 @@
 		9C953F6E21799E96008089A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C953F6D21799E96008089A8 /* ThreadLock.framework */,
-				9C953F7621799E96008089A8 /* ThreadLock-macOSTests.xctest */,
-				9C953F8A21799EA2008089A8 /* ThreadLock.framework */,
-				9C953F9221799EA2008089A8 /* ThreadLock-iOSTests.xctest */,
-				9C953FA621799F4F008089A8 /* ThreadLock.framework */,
-				9C953FB321799F57008089A8 /* ThreadLock.framework */,
-				9C953FBB21799F57008089A8 /* ThreadLock-tvOSTests.xctest */,
+				9C953F6D21799E96008089A8 /* ThreadLocks.framework */,
+				9C953F7621799E96008089A8 /* ThreadLocks-macOSTests.xctest */,
+				9C953F8A21799EA2008089A8 /* ThreadLocks.framework */,
+				9C953F9221799EA2008089A8 /* ThreadLocks-iOSTests.xctest */,
+				9C953FA621799F4F008089A8 /* ThreadLocks.framework */,
+				9C953FB321799F57008089A8 /* ThreadLocks.framework */,
+				9C953FBB21799F57008089A8 /* ThreadLocks-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C9540382179A25F008089A8 /* ThreadLock */ = {
+		9C9540382179A25F008089A8 /* ThreadLocks */ = {
 			isa = PBXGroup;
 			children = (
 				9C95408F2179B2E4008089A8 /* Threading.swift */,
@@ -152,7 +152,7 @@
 				9C9540902179B2E4008089A8 /* UnfairLocked.swift */,
 				9C9540392179A25F008089A8 /* Supporting Files */,
 			);
-			path = ThreadLock;
+			path = ThreadLocks;
 			sourceTree = "<group>";
 		};
 		9C9540392179A25F008089A8 /* Supporting Files */ = {
@@ -163,12 +163,12 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9C95403B2179A25F008089A8 /* ThreadLockTests */ = {
+		9C95403B2179A25F008089A8 /* ThreadLocksTests */ = {
 			isa = PBXGroup;
 			children = (
 				9C95403C2179A25F008089A8 /* Supporting Files */,
 			);
-			path = ThreadLockTests;
+			path = ThreadLocksTests;
 			sourceTree = "<group>";
 		};
 		9C95403C2179A25F008089A8 /* Supporting Files */ = {
@@ -213,9 +213,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9C953F6C21799E96008089A8 /* ThreadLock-macOS */ = {
+		9C953F6C21799E96008089A8 /* ThreadLocks-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953F8321799E96008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-macOS" */;
+			buildConfigurationList = 9C953F8321799E96008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-macOS" */;
 			buildPhases = (
 				9C95408B2179AEE7008089A8 /* ShellScript */,
 				9C953F6821799E96008089A8 /* Headers */,
@@ -227,14 +227,14 @@
 			);
 			dependencies = (
 			);
-			name = "ThreadLock-macOS";
+			name = "ThreadLocks-macOS";
 			productName = "ThreadLock-macOS";
-			productReference = 9C953F6D21799E96008089A8 /* ThreadLock.framework */;
+			productReference = 9C953F6D21799E96008089A8 /* ThreadLocks.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C953F7521799E96008089A8 /* ThreadLock-macOSTests */ = {
+		9C953F7521799E96008089A8 /* ThreadLocks-macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953F8421799E96008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-macOSTests" */;
+			buildConfigurationList = 9C953F8421799E96008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-macOSTests" */;
 			buildPhases = (
 				9C953F7221799E96008089A8 /* Sources */,
 				9C953F7321799E96008089A8 /* Frameworks */,
@@ -245,14 +245,14 @@
 			dependencies = (
 				9C953F7921799E96008089A8 /* PBXTargetDependency */,
 			);
-			name = "ThreadLock-macOSTests";
+			name = "ThreadLocks-macOSTests";
 			productName = "ThreadLock-macOSTests";
-			productReference = 9C953F7621799E96008089A8 /* ThreadLock-macOSTests.xctest */;
+			productReference = 9C953F7621799E96008089A8 /* ThreadLocks-macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9C953F8921799EA2008089A8 /* ThreadLock-iOS */ = {
+		9C953F8921799EA2008089A8 /* ThreadLocks-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953F9B21799EA2008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-iOS" */;
+			buildConfigurationList = 9C953F9B21799EA2008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-iOS" */;
 			buildPhases = (
 				9C95408C2179AEF6008089A8 /* ShellScript */,
 				9C953F8521799EA2008089A8 /* Headers */,
@@ -264,14 +264,14 @@
 			);
 			dependencies = (
 			);
-			name = "ThreadLock-iOS";
+			name = "ThreadLocks-iOS";
 			productName = "ThreadLock-iOS";
-			productReference = 9C953F8A21799EA2008089A8 /* ThreadLock.framework */;
+			productReference = 9C953F8A21799EA2008089A8 /* ThreadLocks.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C953F9121799EA2008089A8 /* ThreadLock-iOSTests */ = {
+		9C953F9121799EA2008089A8 /* ThreadLocks-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953F9E21799EA2008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-iOSTests" */;
+			buildConfigurationList = 9C953F9E21799EA2008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-iOSTests" */;
 			buildPhases = (
 				9C953F8E21799EA2008089A8 /* Sources */,
 				9C953F8F21799EA2008089A8 /* Frameworks */,
@@ -282,14 +282,14 @@
 			dependencies = (
 				9C953F9521799EA2008089A8 /* PBXTargetDependency */,
 			);
-			name = "ThreadLock-iOSTests";
+			name = "ThreadLocks-iOSTests";
 			productName = "ThreadLock-iOSTests";
-			productReference = 9C953F9221799EA2008089A8 /* ThreadLock-iOSTests.xctest */;
+			productReference = 9C953F9221799EA2008089A8 /* ThreadLocks-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9C953FA521799F4F008089A8 /* ThreadLock-watchOS */ = {
+		9C953FA521799F4F008089A8 /* ThreadLocks-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953FAB21799F4F008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-watchOS" */;
+			buildConfigurationList = 9C953FAB21799F4F008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-watchOS" */;
 			buildPhases = (
 				9C95408D2179AF00008089A8 /* ShellScript */,
 				9C953FA121799F4F008089A8 /* Headers */,
@@ -301,14 +301,14 @@
 			);
 			dependencies = (
 			);
-			name = "ThreadLock-watchOS";
+			name = "ThreadLocks-watchOS";
 			productName = "ThreadLock-watchOS";
-			productReference = 9C953FA621799F4F008089A8 /* ThreadLock.framework */;
+			productReference = 9C953FA621799F4F008089A8 /* ThreadLocks.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C953FB221799F57008089A8 /* ThreadLock-tvOS */ = {
+		9C953FB221799F57008089A8 /* ThreadLocks-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953FC421799F57008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-tvOS" */;
+			buildConfigurationList = 9C953FC421799F57008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-tvOS" */;
 			buildPhases = (
 				9C95408E2179AF09008089A8 /* ShellScript */,
 				9C953FAE21799F57008089A8 /* Headers */,
@@ -320,14 +320,14 @@
 			);
 			dependencies = (
 			);
-			name = "ThreadLock-tvOS";
+			name = "ThreadLocks-tvOS";
 			productName = "ThreadLock-tvOS";
-			productReference = 9C953FB321799F57008089A8 /* ThreadLock.framework */;
+			productReference = 9C953FB321799F57008089A8 /* ThreadLocks.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C953FBA21799F57008089A8 /* ThreadLock-tvOSTests */ = {
+		9C953FBA21799F57008089A8 /* ThreadLocks-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C953FC721799F57008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-tvOSTests" */;
+			buildConfigurationList = 9C953FC721799F57008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-tvOSTests" */;
 			buildPhases = (
 				9C953FB721799F57008089A8 /* Sources */,
 				9C953FB821799F57008089A8 /* Frameworks */,
@@ -338,9 +338,9 @@
 			dependencies = (
 				9C953FBE21799F57008089A8 /* PBXTargetDependency */,
 			);
-			name = "ThreadLock-tvOSTests";
+			name = "ThreadLocks-tvOSTests";
 			productName = "ThreadLock-tvOSTests";
-			productReference = 9C953FBB21799F57008089A8 /* ThreadLock-tvOSTests.xctest */;
+			productReference = 9C953FBB21799F57008089A8 /* ThreadLocks-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -379,7 +379,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C953F0321799C7C008089A8 /* Build configuration list for PBXProject "ThreadLock" */;
+			buildConfigurationList = 9C953F0321799C7C008089A8 /* Build configuration list for PBXProject "ThreadLocks" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -391,13 +391,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C953F6C21799E96008089A8 /* ThreadLock-macOS */,
-				9C953F7521799E96008089A8 /* ThreadLock-macOSTests */,
-				9C953F8921799EA2008089A8 /* ThreadLock-iOS */,
-				9C953F9121799EA2008089A8 /* ThreadLock-iOSTests */,
-				9C953FA521799F4F008089A8 /* ThreadLock-watchOS */,
-				9C953FB221799F57008089A8 /* ThreadLock-tvOS */,
-				9C953FBA21799F57008089A8 /* ThreadLock-tvOSTests */,
+				9C953F6C21799E96008089A8 /* ThreadLocks-macOS */,
+				9C953F7521799E96008089A8 /* ThreadLocks-macOSTests */,
+				9C953F8921799EA2008089A8 /* ThreadLocks-iOS */,
+				9C953F9121799EA2008089A8 /* ThreadLocks-iOSTests */,
+				9C953FA521799F4F008089A8 /* ThreadLocks-watchOS */,
+				9C953FB221799F57008089A8 /* ThreadLocks-tvOS */,
+				9C953FBA21799F57008089A8 /* ThreadLocks-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -588,17 +588,17 @@
 /* Begin PBXTargetDependency section */
 		9C953F7921799E96008089A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C953F6C21799E96008089A8 /* ThreadLock-macOS */;
+			target = 9C953F6C21799E96008089A8 /* ThreadLocks-macOS */;
 			targetProxy = 9C953F7821799E96008089A8 /* PBXContainerItemProxy */;
 		};
 		9C953F9521799EA2008089A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C953F8921799EA2008089A8 /* ThreadLock-iOS */;
+			target = 9C953F8921799EA2008089A8 /* ThreadLocks-iOS */;
 			targetProxy = 9C953F9421799EA2008089A8 /* PBXContainerItemProxy */;
 		};
 		9C953FBE21799F57008089A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C953FB221799F57008089A8 /* ThreadLock-tvOS */;
+			target = 9C953FB221799F57008089A8 /* ThreadLocks-tvOS */;
 			targetProxy = 9C953FBD21799F57008089A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -675,7 +675,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLock/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocks/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ThreadLock-macOS";
-				PRODUCT_NAME = ThreadLock;
+				PRODUCT_NAME = ThreadLocks;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -751,7 +751,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLock/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocks/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -762,7 +762,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ThreadLock-macOS";
-				PRODUCT_NAME = ThreadLock;
+				PRODUCT_NAME = ThreadLocks;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -827,7 +827,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLockTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocksTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -894,7 +894,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLockTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocksTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -969,7 +969,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLock/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocks/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -981,7 +981,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ThreadLock-iOS";
-				PRODUCT_NAME = ThreadLock;
+				PRODUCT_NAME = ThreadLocks;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1044,7 +1044,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLock/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocks/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1055,7 +1055,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ThreadLock-iOS";
-				PRODUCT_NAME = ThreadLock;
+				PRODUCT_NAME = ThreadLocks;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1121,7 +1121,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLockTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocksTests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1188,7 +1188,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLockTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocksTests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1266,7 +1266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLock/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocks/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1277,7 +1277,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ThreadLock-watchOS";
-				PRODUCT_NAME = ThreadLock;
+				PRODUCT_NAME = ThreadLocks;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1342,7 +1342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLock/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocks/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1352,7 +1352,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ThreadLock-watchOS";
-				PRODUCT_NAME = ThreadLock;
+				PRODUCT_NAME = ThreadLocks;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1423,7 +1423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLock/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocks/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1434,7 +1434,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ThreadLock-tvOS";
-				PRODUCT_NAME = ThreadLock;
+				PRODUCT_NAME = ThreadLocks;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1498,7 +1498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLock/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocks/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1508,7 +1508,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ThreadLock-tvOS";
-				PRODUCT_NAME = ThreadLock;
+				PRODUCT_NAME = ThreadLocks;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1574,7 +1574,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLockTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocksTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1640,7 +1640,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ThreadLockTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "ThreadLocksTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1663,7 +1663,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C953F0321799C7C008089A8 /* Build configuration list for PBXProject "ThreadLock" */ = {
+		9C953F0321799C7C008089A8 /* Build configuration list for PBXProject "ThreadLocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953F0421799C7C008089A8 /* Debug */,
@@ -1672,7 +1672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953F8321799E96008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-macOS" */ = {
+		9C953F8321799E96008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953F7F21799E96008089A8 /* Debug */,
@@ -1681,7 +1681,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953F8421799E96008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-macOSTests" */ = {
+		9C953F8421799E96008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953F8121799E96008089A8 /* Debug */,
@@ -1690,7 +1690,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953F9B21799EA2008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-iOS" */ = {
+		9C953F9B21799EA2008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953F9C21799EA2008089A8 /* Debug */,
@@ -1699,7 +1699,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953F9E21799EA2008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-iOSTests" */ = {
+		9C953F9E21799EA2008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953F9F21799EA2008089A8 /* Debug */,
@@ -1708,7 +1708,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953FAB21799F4F008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-watchOS" */ = {
+		9C953FAB21799F4F008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953FAC21799F4F008089A8 /* Debug */,
@@ -1717,7 +1717,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953FC421799F57008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-tvOS" */ = {
+		9C953FC421799F57008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953FC521799F57008089A8 /* Debug */,
@@ -1726,7 +1726,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C953FC721799F57008089A8 /* Build configuration list for PBXNativeTarget "ThreadLock-tvOSTests" */ = {
+		9C953FC721799F57008089A8 /* Build configuration list for PBXNativeTarget "ThreadLocks-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C953FC821799F57008089A8 /* Debug */,
