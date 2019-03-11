@@ -146,6 +146,10 @@ public class UnfairLocked<R> {
 }
 
 
+@available(macOSApplicationExtension 10.12, *)
+@available(iOSApplicationExtension 10.0, *)
+@available(tvOSApplicationExtension 10.0, *)
+@available(watchOSApplicationExtension 3.0, *)
 extension UnfairLocked: Equatable where R: Equatable {
     @available(macOSApplicationExtension 10.12, *)
     @available(iOSApplicationExtension 10.0, *)
